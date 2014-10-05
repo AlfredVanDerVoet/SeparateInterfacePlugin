@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RedBag.Service", "RedBag.Service.vbproj", "{AC20F5BB-F6C0-4B19-BF9E-6EC692BA9AD3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RedBag.Service.Client", "..\RedBag.Service.Client\RedBag.Service.Client.vbproj", "{D4F548AD-AA12-4593-991E-40C3AF821AB7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RedBag.Service.Client.UnitTests", "RedBag.Service.Client.UnitTests\RedBag.Service.Client.UnitTests.vbproj", "{932A0D70-DAD8-46C5-A93D-8BE6E35685AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B63F34F-E62E-4F30-B7A1-F52C1E8B7E00}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RedBag.Patterns.Plugin.vsmdi = RedBag.Patterns.Plugin.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RedBag.Patterns.Plugin.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC20F5BB-F6C0-4B19-BF9E-6EC692BA9AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC20F5BB-F6C0-4B19-BF9E-6EC692BA9AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC20F5BB-F6C0-4B19-BF9E-6EC692BA9AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC20F5BB-F6C0-4B19-BF9E-6EC692BA9AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F548AD-AA12-4593-991E-40C3AF821AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F548AD-AA12-4593-991E-40C3AF821AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F548AD-AA12-4593-991E-40C3AF821AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F548AD-AA12-4593-991E-40C3AF821AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932A0D70-DAD8-46C5-A93D-8BE6E35685AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932A0D70-DAD8-46C5-A93D-8BE6E35685AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932A0D70-DAD8-46C5-A93D-8BE6E35685AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932A0D70-DAD8-46C5-A93D-8BE6E35685AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
